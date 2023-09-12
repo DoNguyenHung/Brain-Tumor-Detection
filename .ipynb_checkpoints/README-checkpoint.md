@@ -1,4 +1,4 @@
-# CS615: Final Project - Brain Tumor Detection with Multi-Class MLPs and CNNs
+# CS615: Final Project - Brain Tumor Detection with MultiClass CNN's
 
 Kenneth Pan <kp3258@drexel.edu> <br>
 Amira Bendjama <ab4745@drexel.edu> <br>
@@ -11,7 +11,7 @@ Hung Do <hd386@drexel.edu> <br>
 
 This code was created to satisfy the work necessary for CS615 Final Project
 
-## Data:
+#### - Data:
 
 The data used in this project was retrieved from Kaggle at this link:<br>
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset <br>
@@ -21,24 +21,24 @@ Due to the size of the dataset, the dataset was unable to be attached to this su
 1. Download the data from Kaggle
 2. Unzip from the archive folder 
 3. Place the unzipped folders _Training_ and _Testing_ in a new folder named _full_
-4. Place this folder in the same directory as the Preprocessing.py script
+4. place this folder in the same directory as the Preprocessing.py script
 5. Run the Preprocessing.py script 
 6. Verify that the dataset results in trainingfull.csv, trainingfull_labels.csv, testingfull.csv, testingfull_labels.csv
 
-## Folder structure:
+#### - Folder structure:
 
 The file strucutre is as follows:
 
-> Final_submission <br>
+> final_submission <br>
 > ├── Preprocessing.py - the script used to resize the images in the brain tumor MRI dataset <br>
 > ├── layers.py - the layers file used for construction of the MLP and CNN architectures <br>
 > ├── MLP.ipynb - the noteboook used to run the MLP network and generate graphs <br>
 > ├── CNN.py - the script used to train and validate the CNN architecture <br>
-> └── CNN-2.py - the script used to train and validate the CNN architecture with 2 convolutional layers <br>
+> ├── CNN-2.py - the script used to train and validate the CNN architecture with 2 convolutional layers <br>
+> ├── if needed <br>
+> └── if needed <br>
 
-Folder also includes images of the loss function and confusion matrix for both MLP and CNN
-
-## Running the code:
+#### - Running the code:
 
 The only packages necessary for running the scripts are below:
 
@@ -49,8 +49,6 @@ pip install cv2 <br>
 pip install imutils <br>
 pip install tqdm <br>
 
-To recreate the results of MLP, make sure the notebook is in the same file location as the pre-processed data files. Then run all the cells of the notebook.
 
-To recreate the results of the CNN, make sure the cnnp.py is in the same file lcoation as the pre-processed data files. Then run the .py file. 
 
 ---
